@@ -1,4 +1,4 @@
-/* const functions1 = (hello) => {
+ const functions1 = (hello) => {
   console.log('Hello, World!')
   hello()
   setTimeout(() => {
@@ -12,25 +12,24 @@ const hello = () => {
   }, 1000)
 }
 
-functions1(hello) */
+functions1(hello)
 
 // =======================≠=======================
 
-/* const buscarUsuario = (callback) => {
+ const buscarUsuario = (callback) => {
   const erro = false
-  
+
   if (erro) callback('User finded', {nome: "Daniel", idade: 16})
   else callback('User finded', {nome: "Daniel", idade: 12})
 }
 buscarUsuario((erro, usuario) => {
-  */
-  
+
 const img = document.querySelector('.viewer')
-  
+
 const testFunc = async () => {
   const options = {
     method: 'get',
-    headers: { 
+    headers: {
       'Content-type': 'application/json',
       'Authentication': 'Client-Id Q2tld8ltGnBRav2hRUdJihze4IOr05VYzf2vEHjAMy8'
     }
