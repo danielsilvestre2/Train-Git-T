@@ -45,3 +45,14 @@ const testFunc = async () => {
 }
 
 testFunc()
+
+// ===================================================
+
+const userName = "Daniel"
+
+if (typeof userName !== "string" && userName !== "Daniel") {
+  console.log('Invalid username')
+}
+else (typeof userName == "string" && userName === "Daniel" || "daniel") {
+  console.log('Valid username')
+}
