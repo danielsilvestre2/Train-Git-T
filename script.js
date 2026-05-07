@@ -48,11 +48,14 @@ testFunc()
 
 // ===================================================
 
-const userName = "Daniel"
+let age = 23
 
-if (typeof userName !== "string" && userName !== "Daniel") {
-  console.log('Invalid username')
-}
-else (typeof userName == "string" && userName === "Daniel" || "daniel") {
-  console.log('Valid username')
+if (age > 0 && age <= 14) {
+   console.log("You are a child!")
+} else if (age > 14 && age <= 17) {
+   console.log("You are an adolecent!")
+} else if (age > 17 && age >= 60) {
+   console.log("You are an adult!")
+} else if (age > 60) {
+   console.log("You are an old people!")
 }
